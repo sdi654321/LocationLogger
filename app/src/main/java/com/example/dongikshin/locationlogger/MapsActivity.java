@@ -47,7 +47,7 @@ public class LocationLogger extends FragmentActivity implements LocationListener
 
         if (provider == null) {  //위치정보 설정이 안되어 있으면 설정하는 엑티비티로 이동합니다
             new AlertDialog.Builder(LocationLogger.this)
-                    .setTitle("위치서비스 동의")
+                    .setTitle("위치서비스 동의.")
                     .setNeutralButton("이동", new DialogInterface.OnClickListener() {
                         @Override
                         public void onClick(DialogInterface dialog, int which) {
